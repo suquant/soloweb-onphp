@@ -33,7 +33,10 @@
 		 */
 		protected function checkConstrain() {
 			
-			$key = (string) Session::get($this->captchaSessionLabel );
+			$key = Session::get('securimage_code_value');
+
+			if( isset( $key[$this->captchaSessionLabel] ) )
+				$key = (string) $key[$this->captchaSessionLabel];
 			
 			if( is_null($key) )
 				$this->setError(self::WRONG);

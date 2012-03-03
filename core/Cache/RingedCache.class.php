@@ -1,6 +1,6 @@
 <?php
 /***************************************************************************
- *   Copyright (C) 2011 by Kutcurua Georgy Tamazievich, Andrew N Fediushin *
+ *   Copyright (C) 2011 by Andrew N Fediushin                              *
  *   email: g.kutcurua@gmail.com, icq: 723737, jabber: soloweb@jabber.ru   *
  *                                                                         *
  *   This program is free software; you can redistribute it and/or modify  *

@@ -5,8 +5,8 @@
 	{
 		public function testClients()
 		{
+			$this->clientTest('PeclMemcache');
 			$this->clientTest('PeclMemcached');
-			$this->clientTest('Memcached');
 		}
 		
 		protected function clientTest($className)

@@ -28,6 +28,7 @@
 		const CODE_204	= 204;
 		const CODE_205	= 205;
 		const CODE_206	= 206;
+		const CODE_207	= 207;
 		const CODE_300	= 300;
 		const CODE_301	= 301;
 		const CODE_302	= 302;
@@ -71,6 +72,7 @@
 			self::CODE_204 => 'No Content',
 			self::CODE_205 => 'Reset Content',
 			self::CODE_206 => 'Partial Content',
+			self::CODE_207 => 'Multi-status', // Used in WebDav
 			self::CODE_300 => 'Multiple Choices',
 			self::CODE_301 => 'Moved Permanently',
 			self::CODE_302 => 'Found',

@@ -122,7 +122,13 @@
 		public function getList($indexes)
 		{
 			try {
-				return $this->instance->getMulti($indexes, $cas, Memcached::GET_PRESERVE_ORDER);
+				return $this->instance->getMulti(
+					$indexes,
+					$cas/*,
+						Непонятно зачем нам отдавать в результате того, чего нет в кэше ???
+					Memcached::GET_PRESERVE_ORDER
+					*/
+				);
 			} catch (BaseException $e) {
 				$this->alive = false;
 				return array();
